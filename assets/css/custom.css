@@ -1,0 +1,66 @@
+/* Blue (P 115-8 C): #009BDF */
+/* Dark Blue (P 105-16 C): #2A3867 */
+/* Dark Blue (0.1 Dark): #25325D */
+
+
+@import url('https://fonts.googleapis.com/css2?family=News+Cycle:wght@400;700&display=swap');
+
+body, input, select, textarea {
+	font-family: 'News Cycle', sans-serif;
+}
+
+body {
+	background: #2A3867;
+}
+
+#intro .intro-logo {
+	font-size: 130%;
+}
+
+.spotlights > section > .image.spotlight-bottle {
+	background-size: contain;
+}
+
+.spotlights > section > .image:before {
+	background: rgba(42, 56, 103, 0.9);
+}
+
+.wrapper.style1 {
+	background-color: #009BDF;
+}
+.wrapper.style1 .icon.major:before {
+	color: #009BDF;
+}
+
+.wrapper.style1-alt {
+	background-color: #25325D;
+}
+.wrapper.style1-alt .icon.major:before {
+	color: #25325D;
+}
+
+.wrapper.style2 {
+	background-color: #2A3867;
+}
+.wrapper.style2 .icon.major:before {
+	color: #2A3867;
+}
+
+.title-alt {
+	font-weight: 400;
+}
+
+#sidebar {
+	background: #2A3867;
+}
+
+#sidebar nav a:before {
+	background: 0;
+}
+
+#sidebar nav a:after {
+	background-image: -moz-linear-gradient(to right, #2A3867, #009BDF);
+	background-image: -webkit-linear-gradient(to right, #2A3867, #009BDF);
+	background-image: -ms-linear-gradient(to right, #2A3867, #009BDF);
+	background-image: linear-gradient(to right, #2A3867, #009BDF);
+}
